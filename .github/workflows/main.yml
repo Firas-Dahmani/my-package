@@ -21,4 +21,4 @@ jobs:
         - run: npm install
         - run: npm publish
           env:
-            NODE_AUTH_TOKEN: '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'
+            NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
