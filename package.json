@@ -1,8 +1,11 @@
 {
-  "name": "@Firas-Dahmani/my-package",
+  "name": "my-package",
   "version": "1.0.0",
   "description": "\"# my-package\"",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Firas-Dahmani"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
